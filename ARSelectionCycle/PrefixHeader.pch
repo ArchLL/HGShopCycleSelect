@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  ARSelectionCycle
+//
+//  Created by 黑色幽默 on 2018/4/10.
+//  Copyright © 2018年 黑色幽默. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "XXBaseViewController.h"
+#import "MBProgressHUD+NHAdd.h"
+#import "Masonry.h"
+#import "AFNetworking.h"
+
+
+#define SCREEN_WIDTH    ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT   ([UIScreen mainScreen].bounds.size.height)
+
+//导航栏的高度
+#define NaviBarHeight  SCREEN_HEIGHT == 812 ? 88 : 64
+//状态栏的高度
+#define TabBarHeight  SCREEN_HEIGHT == 812 ? 83 : 49
+//是否是iPhoneX
+#define isIphoneX  SCREEN_HEIGHT == 812 ? 1 : 0
+
+
+#define NFont(s) [UIFont fontWithName:@"PingFang-SC-Light" size:s]
+#define RFont(s) [UIFont fontWithName:@"PingFang-SC-Regular" size:s]
+#define MFont(s) [UIFont fontWithName:@"PingFangSC-Medium" size:s]
+
+
+//根据宽高比例，获取新的宽和高
+#define ReSize_UIHeight(float)   ((float)/375.0f*SCREEN_WIDTH)
+#define ReSize_UIWidth(float)  ((float)/667.0f*SCREEN_HEIGHT)
+//获取对应的宽和高
+#define New_UIHeight(float)  ((float)/667.0f*SCREEN_HEIGHT)
+#define New_UIWidth(float)  ((float)/375.0f*SCREEN_WIDTH)
+
+
+// 获取16进制颜色
+#define HexRGBA(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+
+#define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+
+#endif /* PrefixHeader_pch */
