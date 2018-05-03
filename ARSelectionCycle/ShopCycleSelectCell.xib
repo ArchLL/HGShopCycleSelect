@@ -138,7 +138,7 @@
                 <outlet property="userCycleDetail" destination="jwX-PJ-XIR" id="GjK-wt-RMU"/>
                 <outlet property="userCycleTitle" destination="mqR-ZU-hrR" id="z6C-1d-6KQ"/>
             </connections>
-            <point key="canvasLocation" x="26" y="20"/>
+            <point key="canvasLocation" x="254" y="-25.5"/>
         </tableViewCell>
     </objects>
     <resources>

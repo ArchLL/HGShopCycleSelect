@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92175BD209B55E100F2AD46 /* ShopCycleSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92175B3209B55E100F2AD46 /* ShopCycleSelectCell.xib */; };
+		A92175BE209B55E100F2AD46 /* ShopCycleSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B5209B55E100F2AD46 /* ShopCycleSelectCell.m */; };
+		A92175BF209B55E100F2AD46 /* ShopStartTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B6209B55E100F2AD46 /* ShopStartTimeView.m */; };
+		A92175C0209B55E100F2AD46 /* ShopCycleSelectHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B7209B55E100F2AD46 /* ShopCycleSelectHeaderView.m */; };
+		A92175C1209B55E100F2AD46 /* ShopCycleSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B8209B55E100F2AD46 /* ShopCycleSelectVC.m */; };
+		A92175C2209B55E100F2AD46 /* ShopTimeSelectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B9209B55E100F2AD46 /* ShopTimeSelectTool.m */; };
 		A938167D207CFF1D00633284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A938167C207CFF1D00633284 /* AppDelegate.m */; };
 		A9381680207CFF1D00633284 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A938167F207CFF1D00633284 /* ViewController.m */; };
 		A9381683207CFF1D00633284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9381681207CFF1D00633284 /* Main.storyboard */; };
@@ -27,12 +33,6 @@
 		A93816DC207D218700633284 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816D1207D218700633284 /* MASViewAttribute.m */; };
 		A93816DD207D218700633284 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93816D2207D218700633284 /* Info.plist */; };
 		A93816E0207D25E100633284 /* XXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816DE207D25E100633284 /* XXBaseViewController.m */; };
-		A93816E52084CAD900633284 /* ShopCycleSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816E32084CAD900633284 /* ShopCycleSelectCell.m */; };
-		A93816E62084CAD900633284 /* ShopCycleSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93816E42084CAD900633284 /* ShopCycleSelectCell.xib */; };
-		A93816F52084CEDC00633284 /* ShopStartTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816EC2084CEDC00633284 /* ShopStartTimeView.m */; };
-		A93816F62084CEDC00633284 /* ShopCycleSelectHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816ED2084CEDC00633284 /* ShopCycleSelectHeaderView.m */; };
-		A93816F72084CEDC00633284 /* ShopCycleSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816EE2084CEDC00633284 /* ShopCycleSelectVC.m */; };
-		A93816F82084CEDC00633284 /* ShopTimeSelectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816EF2084CEDC00633284 /* ShopTimeSelectTool.m */; };
 		A93817092084F59D00633284 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816FF2084F59D00633284 /* AFURLResponseSerialization.m */; };
 		A938170A2084F59D00633284 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A93817002084F59D00633284 /* AFHTTPSessionManager.m */; };
 		A938170B2084F59D00633284 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A93817022084F59D00633284 /* AFURLSessionManager.m */; };
@@ -42,6 +42,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A92175B2209B55E100F2AD46 /* ShopCycleSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCycleSelectVC.h; sourceTree = "<group>"; };
+		A92175B3209B55E100F2AD46 /* ShopCycleSelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCycleSelectCell.xib; sourceTree = "<group>"; };
+		A92175B4209B55E100F2AD46 /* ShopTimeSelectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopTimeSelectTool.h; sourceTree = "<group>"; };
+		A92175B5209B55E100F2AD46 /* ShopCycleSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCycleSelectCell.m; sourceTree = "<group>"; };
+		A92175B6209B55E100F2AD46 /* ShopStartTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopStartTimeView.m; sourceTree = "<group>"; };
+		A92175B7209B55E100F2AD46 /* ShopCycleSelectHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCycleSelectHeaderView.m; sourceTree = "<group>"; };
+		A92175B8209B55E100F2AD46 /* ShopCycleSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCycleSelectVC.m; sourceTree = "<group>"; };
+		A92175B9209B55E100F2AD46 /* ShopTimeSelectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopTimeSelectTool.m; sourceTree = "<group>"; };
+		A92175BA209B55E100F2AD46 /* ShopCycleSelectHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCycleSelectHeaderView.h; sourceTree = "<group>"; };
+		A92175BB209B55E100F2AD46 /* ShopStartTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopStartTimeView.h; sourceTree = "<group>"; };
+		A92175BC209B55E100F2AD46 /* ShopCycleSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCycleSelectCell.h; sourceTree = "<group>"; };
 		A9381678207CFF1D00633284 /* ARSelectionCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSelectionCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A938167B207CFF1D00633284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A938167C207CFF1D00633284 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,17 +97,6 @@
 		A93816D2207D218700633284 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93816DE207D25E100633284 /* XXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBaseViewController.m; sourceTree = "<group>"; };
 		A93816DF207D25E100633284 /* XXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBaseViewController.h; sourceTree = "<group>"; };
-		A93816E22084CAD900633284 /* ShopCycleSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCycleSelectCell.h; sourceTree = "<group>"; };
-		A93816E32084CAD900633284 /* ShopCycleSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCycleSelectCell.m; sourceTree = "<group>"; };
-		A93816E42084CAD900633284 /* ShopCycleSelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCycleSelectCell.xib; sourceTree = "<group>"; };
-		A93816E82084CEDC00633284 /* ShopCycleSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCycleSelectVC.h; sourceTree = "<group>"; };
-		A93816EA2084CEDC00633284 /* ShopTimeSelectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopTimeSelectTool.h; sourceTree = "<group>"; };
-		A93816EC2084CEDC00633284 /* ShopStartTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopStartTimeView.m; sourceTree = "<group>"; };
-		A93816ED2084CEDC00633284 /* ShopCycleSelectHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCycleSelectHeaderView.m; sourceTree = "<group>"; };
-		A93816EE2084CEDC00633284 /* ShopCycleSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCycleSelectVC.m; sourceTree = "<group>"; };
-		A93816EF2084CEDC00633284 /* ShopTimeSelectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopTimeSelectTool.m; sourceTree = "<group>"; };
-		A93816F02084CEDC00633284 /* ShopCycleSelectHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCycleSelectHeaderView.h; sourceTree = "<group>"; };
-		A93816F12084CEDC00633284 /* ShopStartTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopStartTimeView.h; sourceTree = "<group>"; };
 		A93816FB2084F59D00633284 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
 		A93816FC2084F59D00633284 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		A93816FD2084F59D00633284 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
@@ -124,6 +124,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A92175B1209B55E100F2AD46 /* ShopCycleSelect */ = {
+			isa = PBXGroup;
+			children = (
+				A92175B2209B55E100F2AD46 /* ShopCycleSelectVC.h */,
+				A92175B8209B55E100F2AD46 /* ShopCycleSelectVC.m */,
+				A92175B4209B55E100F2AD46 /* ShopTimeSelectTool.h */,
+				A92175B9209B55E100F2AD46 /* ShopTimeSelectTool.m */,
+				A92175BA209B55E100F2AD46 /* ShopCycleSelectHeaderView.h */,
+				A92175B7209B55E100F2AD46 /* ShopCycleSelectHeaderView.m */,
+				A92175BB209B55E100F2AD46 /* ShopStartTimeView.h */,
+				A92175B6209B55E100F2AD46 /* ShopStartTimeView.m */,
+			);
+			path = ShopCycleSelect;
+			sourceTree = "<group>";
+		};
 		A938166F207CFF1D00633284 = {
 			isa = PBXGroup;
 			children = (
@@ -143,17 +158,17 @@
 		A938167A207CFF1D00633284 /* ARSelectionCycle */ = {
 			isa = PBXGroup;
 			children = (
+				A92175B1209B55E100F2AD46 /* ShopCycleSelect */,
 				A93816E12084C9A700633284 /* Tools */,
-				A93816E72084CEDC00633284 /* ShopCycleSelect */,
 				A93816DF207D25E100633284 /* XXBaseViewController.h */,
 				A93816DE207D25E100633284 /* XXBaseViewController.m */,
 				A938167B207CFF1D00633284 /* AppDelegate.h */,
 				A938167C207CFF1D00633284 /* AppDelegate.m */,
 				A938167E207CFF1D00633284 /* ViewController.h */,
 				A938167F207CFF1D00633284 /* ViewController.m */,
-				A93816E22084CAD900633284 /* ShopCycleSelectCell.h */,
-				A93816E32084CAD900633284 /* ShopCycleSelectCell.m */,
-				A93816E42084CAD900633284 /* ShopCycleSelectCell.xib */,
+				A92175BC209B55E100F2AD46 /* ShopCycleSelectCell.h */,
+				A92175B5209B55E100F2AD46 /* ShopCycleSelectCell.m */,
+				A92175B3209B55E100F2AD46 /* ShopCycleSelectCell.xib */,
 				A9381691207CFFE500633284 /* PrefixHeader.pch */,
 				A9381681207CFF1D00633284 /* Main.storyboard */,
 				A9381684207CFF1D00633284 /* Assets.xcassets */,
@@ -225,22 +240,6 @@
 				A93816B8207D218700633284 /* Masonry */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		A93816E72084CEDC00633284 /* ShopCycleSelect */ = {
-			isa = PBXGroup;
-			children = (
-				A93816E82084CEDC00633284 /* ShopCycleSelectVC.h */,
-				A93816EE2084CEDC00633284 /* ShopCycleSelectVC.m */,
-				A93816EA2084CEDC00633284 /* ShopTimeSelectTool.h */,
-				A93816EF2084CEDC00633284 /* ShopTimeSelectTool.m */,
-				A93816F12084CEDC00633284 /* ShopStartTimeView.h */,
-				A93816EC2084CEDC00633284 /* ShopStartTimeView.m */,
-				A93816F02084CEDC00633284 /* ShopCycleSelectHeaderView.h */,
-				A93816ED2084CEDC00633284 /* ShopCycleSelectHeaderView.m */,
-			);
-			name = ShopCycleSelect;
-			path = ../../Venus/VensAppiOS/Shop/Controller/YXShop/ShopCycleSelect;
 			sourceTree = "<group>";
 		};
 		A93816FA2084F59D00633284 /* AFNetworking */ = {
@@ -324,9 +323,9 @@
 			files = (
 				A9381688207CFF1D00633284 /* LaunchScreen.storyboard in Resources */,
 				A9381685207CFF1D00633284 /* Assets.xcassets in Resources */,
-				A93816E62084CAD900633284 /* ShopCycleSelectCell.xib in Resources */,
 				A93816DD207D218700633284 /* Info.plist in Resources */,
 				A9381683207CFF1D00633284 /* Main.storyboard in Resources */,
+				A92175BD209B55E100F2AD46 /* ShopCycleSelectCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,14 +336,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93816F62084CEDC00633284 /* ShopCycleSelectHeaderView.m in Sources */,
 				A93816D3207D218700633284 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A93816DA207D218700633284 /* MASConstraint.m in Sources */,
 				A93816DB207D218700633284 /* MASViewConstraint.m in Sources */,
+				A92175C2209B55E100F2AD46 /* ShopTimeSelectTool.m in Sources */,
 				A93817092084F59D00633284 /* AFURLResponseSerialization.m in Sources */,
 				A93816D4207D218700633284 /* ViewController+MASAdditions.m in Sources */,
 				A93816DC207D218700633284 /* MASViewAttribute.m in Sources */,
-				A93816F82084CEDC00633284 /* ShopTimeSelectTool.m in Sources */,
 				A9381680207CFF1D00633284 /* ViewController.m in Sources */,
 				A938170B2084F59D00633284 /* AFURLSessionManager.m in Sources */,
 				A938170E2084F59D00633284 /* AFSecurityPolicy.m in Sources */,
@@ -354,13 +352,14 @@
 				A93816D7207D218700633284 /* MASLayoutConstraint.m in Sources */,
 				A938170D2084F59D00633284 /* AFNetworkReachabilityManager.m in Sources */,
 				A938170A2084F59D00633284 /* AFHTTPSessionManager.m in Sources */,
+				A92175BE209B55E100F2AD46 /* ShopCycleSelectCell.m in Sources */,
+				A92175BF209B55E100F2AD46 /* ShopStartTimeView.m in Sources */,
 				A93816D6207D218700633284 /* MASConstraintMaker.m in Sources */,
-				A93816F52084CEDC00633284 /* ShopStartTimeView.m in Sources */,
 				A938170C2084F59D00633284 /* AFURLRequestSerialization.m in Sources */,
+				A92175C1209B55E100F2AD46 /* ShopCycleSelectVC.m in Sources */,
 				A93816E0207D25E100633284 /* XXBaseViewController.m in Sources */,
+				A92175C0209B55E100F2AD46 /* ShopCycleSelectHeaderView.m in Sources */,
 				A93816B6207D1B3A00633284 /* MBProgressHUD.m in Sources */,
-				A93816E52084CAD900633284 /* ShopCycleSelectCell.m in Sources */,
-				A93816F72084CEDC00633284 /* ShopCycleSelectVC.m in Sources */,
 				A93816D8207D218700633284 /* NSArray+MASAdditions.m in Sources */,
 				A93816B7207D1B3A00633284 /* MBProgressHUD+NHAdd.m in Sources */,
 				A938167D207CFF1D00633284 /* AppDelegate.m in Sources */,
