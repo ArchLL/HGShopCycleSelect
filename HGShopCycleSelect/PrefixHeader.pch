@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  HGShopCycleSelect
+//
+//  Created by Arch on 2018/4/10.
+//  Copyright © 2018年 Arch. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "MBProgressHUD+NHAdd.h"
+#import <AFNetworking.h>
+#import <Masonry.h>
+#import "HGDeviceModelHelper.h"
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define STATUS_BAR_HEIGHT [UIApplication sharedApplication].statusBarFrame.size.height
+#define IS_IPAD ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+#define NAVIGATION_BAR_HEIGHT ((IS_IPAD ? 50 : 44) + STATUS_BAR_HEIGHT)
+
+#define NFont(s) [UIFont fontWithName:@"PingFang-SC-Light" size:s]
+#define RFont(s) [UIFont fontWithName:@"PingFang-SC-Regular" size:s]
+#define MFont(s) [UIFont fontWithName:@"PingFangSC-Medium" size:s]
+
+//根据宽高比例，获取新的宽和高
+#define ReSize_UIHeight(float) ((float)/375.0f*SCREEN_WIDTH)
+#define ReSize_UIWidth(float) ((float)/667.0f*SCREEN_HEIGHT)
+//获取对应的宽和高
+#define New_UIHeight(float) ((float)/667.0f*SCREEN_HEIGHT)
+#define New_UIWidth(float) ((float)/375.0f*SCREEN_WIDTH)
+
+// 获取16进制颜色
+#define HexRGBA(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+
+#define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//判空
+//字符串是否为空
+#define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+//数组是否为空
+#define kArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+//字典是否为空
+#define kDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys.count == 0)
+
+#define UD [NSUserDefaults standardUserDefaults]
+
+#endif /* PrefixHeader_pch */

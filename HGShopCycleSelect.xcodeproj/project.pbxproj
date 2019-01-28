@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92175BD209B55E100F2AD46 /* HGShopCycleSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92175B3209B55E100F2AD46 /* HGShopCycleSelectCell.xib */; };
+		A92175BE209B55E100F2AD46 /* HGShopCycleSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B5209B55E100F2AD46 /* HGShopCycleSelectCell.m */; };
+		A92175BF209B55E100F2AD46 /* HGShopStartTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B6209B55E100F2AD46 /* HGShopStartTimeView.m */; };
+		A92175C0209B55E100F2AD46 /* HGShopCycleSelectHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B7209B55E100F2AD46 /* HGShopCycleSelectHeaderView.m */; };
+		A92175C1209B55E100F2AD46 /* HGShopCycleSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B8209B55E100F2AD46 /* HGShopCycleSelectViewController.m */; };
+		A92175C2209B55E100F2AD46 /* HGShopTimeSelectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A92175B9209B55E100F2AD46 /* HGShopTimeSelectTool.m */; };
+		A938167D207CFF1D00633284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A938167C207CFF1D00633284 /* AppDelegate.m */; };
+		A9381680207CFF1D00633284 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A938167F207CFF1D00633284 /* ViewController.m */; };
+		A9381683207CFF1D00633284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9381681207CFF1D00633284 /* Main.storyboard */; };
+		A9381685207CFF1D00633284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9381684207CFF1D00633284 /* Assets.xcassets */; };
+		A9381688207CFF1D00633284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9381686207CFF1D00633284 /* LaunchScreen.storyboard */; };
+		A938168B207CFF1D00633284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A938168A207CFF1D00633284 /* main.m */; };
+		A93816B6207D1B3A00633284 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816B3207D1B3A00633284 /* MBProgressHUD.m */; };
+		A93816B7207D1B3A00633284 /* MBProgressHUD+NHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A93816B5207D1B3A00633284 /* MBProgressHUD+NHAdd.m */; };
+		A957654721FF6985005BE85C /* HGDeviceModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A957654521FF6985005BE85C /* HGDeviceModelHelper.m */; };
+		F0B3DE2AF5BBE513C17F6B94 /* libPods-HGShopCycleSelect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E46CFC79829BCCF140E8F1 /* libPods-HGShopCycleSelect.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4562A6CF46257978F011C3F3 /* Pods-HGShopCycleSelect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGShopCycleSelect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGShopCycleSelect/Pods-HGShopCycleSelect.debug.xcconfig"; sourceTree = "<group>"; };
+		5F4B361EEF127136B06210D8 /* Pods-HGShopCycleSelect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGShopCycleSelect.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGShopCycleSelect/Pods-HGShopCycleSelect.release.xcconfig"; sourceTree = "<group>"; };
+		99E46CFC79829BCCF140E8F1 /* libPods-HGShopCycleSelect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGShopCycleSelect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92175B2209B55E100F2AD46 /* HGShopCycleSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGShopCycleSelectViewController.h; sourceTree = "<group>"; };
+		A92175B3209B55E100F2AD46 /* HGShopCycleSelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGShopCycleSelectCell.xib; sourceTree = "<group>"; };
+		A92175B4209B55E100F2AD46 /* HGShopTimeSelectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGShopTimeSelectTool.h; sourceTree = "<group>"; };
+		A92175B5209B55E100F2AD46 /* HGShopCycleSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGShopCycleSelectCell.m; sourceTree = "<group>"; };
+		A92175B6209B55E100F2AD46 /* HGShopStartTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGShopStartTimeView.m; sourceTree = "<group>"; };
+		A92175B7209B55E100F2AD46 /* HGShopCycleSelectHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGShopCycleSelectHeaderView.m; sourceTree = "<group>"; };
+		A92175B8209B55E100F2AD46 /* HGShopCycleSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGShopCycleSelectViewController.m; sourceTree = "<group>"; };
+		A92175B9209B55E100F2AD46 /* HGShopTimeSelectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGShopTimeSelectTool.m; sourceTree = "<group>"; };
+		A92175BA209B55E100F2AD46 /* HGShopCycleSelectHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGShopCycleSelectHeaderView.h; sourceTree = "<group>"; };
+		A92175BB209B55E100F2AD46 /* HGShopStartTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGShopStartTimeView.h; sourceTree = "<group>"; };
+		A92175BC209B55E100F2AD46 /* HGShopCycleSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGShopCycleSelectCell.h; sourceTree = "<group>"; };
+		A9381678207CFF1D00633284 /* HGShopCycleSelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGShopCycleSelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A938167B207CFF1D00633284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A938167C207CFF1D00633284 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A938167E207CFF1D00633284 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A938167F207CFF1D00633284 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9381682207CFF1D00633284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9381684207CFF1D00633284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9381687207CFF1D00633284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9381689207CFF1D00633284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A938168A207CFF1D00633284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9381691207CFFE500633284 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A93816B0207D1B3A00633284 /* MBProgressHUD_NHExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD_NHExtend.h; sourceTree = "<group>"; };
+		A93816B1207D1B3A00633284 /* MBProgressHUD+NHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NHAdd.h"; sourceTree = "<group>"; };
+		A93816B3207D1B3A00633284 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A93816B4207D1B3A00633284 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A93816B5207D1B3A00633284 /* MBProgressHUD+NHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NHAdd.m"; sourceTree = "<group>"; };
+		A957654521FF6985005BE85C /* HGDeviceModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGDeviceModelHelper.m; sourceTree = "<group>"; };
+		A957654621FF6985005BE85C /* HGDeviceModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGDeviceModelHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9381675207CFF1D00633284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B3DE2AF5BBE513C17F6B94 /* libPods-HGShopCycleSelect.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF517ECABEB1E49FFD01EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E46CFC79829BCCF140E8F1 /* libPods-HGShopCycleSelect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64407D09AEBA97C0191BD0B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4562A6CF46257978F011C3F3 /* Pods-HGShopCycleSelect.debug.xcconfig */,
+				5F4B361EEF127136B06210D8 /* Pods-HGShopCycleSelect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A92175B1209B55E100F2AD46 /* ShopCycleSelect */ = {
+			isa = PBXGroup;
+			children = (
+				A93816E12084C9A700633284 /* Tools */,
+				A92175B2209B55E100F2AD46 /* HGShopCycleSelectViewController.h */,
+				A92175B8209B55E100F2AD46 /* HGShopCycleSelectViewController.m */,
+				A92175B4209B55E100F2AD46 /* HGShopTimeSelectTool.h */,
+				A92175B9209B55E100F2AD46 /* HGShopTimeSelectTool.m */,
+				A92175BA209B55E100F2AD46 /* HGShopCycleSelectHeaderView.h */,
+				A92175B7209B55E100F2AD46 /* HGShopCycleSelectHeaderView.m */,
+				A92175BB209B55E100F2AD46 /* HGShopStartTimeView.h */,
+				A92175B6209B55E100F2AD46 /* HGShopStartTimeView.m */,
+			);
+			path = ShopCycleSelect;
+			sourceTree = "<group>";
+		};
+		A938166F207CFF1D00633284 = {
+			isa = PBXGroup;
+			children = (
+				A938167A207CFF1D00633284 /* HGShopCycleSelect */,
+				A9381679207CFF1D00633284 /* Products */,
+				64407D09AEBA97C0191BD0B4 /* Pods */,
+				1CF517ECABEB1E49FFD01EE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9381679207CFF1D00633284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9381678207CFF1D00633284 /* HGShopCycleSelect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A938167A207CFF1D00633284 /* HGShopCycleSelect */ = {
+			isa = PBXGroup;
+			children = (
+				A92175B1209B55E100F2AD46 /* ShopCycleSelect */,
+				A938167B207CFF1D00633284 /* AppDelegate.h */,
+				A938167C207CFF1D00633284 /* AppDelegate.m */,
+				A938167E207CFF1D00633284 /* ViewController.h */,
+				A938167F207CFF1D00633284 /* ViewController.m */,
+				A92175BC209B55E100F2AD46 /* HGShopCycleSelectCell.h */,
+				A92175B5209B55E100F2AD46 /* HGShopCycleSelectCell.m */,
+				A92175B3209B55E100F2AD46 /* HGShopCycleSelectCell.xib */,
+				A9381691207CFFE500633284 /* PrefixHeader.pch */,
+				A9381681207CFF1D00633284 /* Main.storyboard */,
+				A9381684207CFF1D00633284 /* Assets.xcassets */,
+				A9381686207CFF1D00633284 /* LaunchScreen.storyboard */,
+				A9381689207CFF1D00633284 /* Info.plist */,
+				A938168A207CFF1D00633284 /* main.m */,
+			);
+			path = HGShopCycleSelect;
+			sourceTree = "<group>";
+		};
+		A93816AF207D1B3A00633284 /* NHHUDExtend */ = {
+			isa = PBXGroup;
+			children = (
+				A93816B2207D1B3A00633284 /* MBProgressHUD */,
+				A93816B0207D1B3A00633284 /* MBProgressHUD_NHExtend.h */,
+				A93816B1207D1B3A00633284 /* MBProgressHUD+NHAdd.h */,
+				A93816B5207D1B3A00633284 /* MBProgressHUD+NHAdd.m */,
+			);
+			path = NHHUDExtend;
+			sourceTree = "<group>";
+		};
+		A93816B2207D1B3A00633284 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A93816B3207D1B3A00633284 /* MBProgressHUD.m */,
+				A93816B4207D1B3A00633284 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A93816E12084C9A700633284 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A93816AF207D1B3A00633284 /* NHHUDExtend */,
+				A957654621FF6985005BE85C /* HGDeviceModelHelper.h */,
+				A957654521FF6985005BE85C /* HGDeviceModelHelper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9381677207CFF1D00633284 /* HGShopCycleSelect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A938168E207CFF1D00633284 /* Build configuration list for PBXNativeTarget "HGShopCycleSelect" */;
+			buildPhases = (
+				DFC80D09A02FE22501DBF84B /* [CP] Check Pods Manifest.lock */,
+				A9381674207CFF1D00633284 /* Sources */,
+				A9381675207CFF1D00633284 /* Frameworks */,
+				A9381676207CFF1D00633284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGShopCycleSelect;
+			productName = HGShopCycleSelect;
+			productReference = A9381678207CFF1D00633284 /* HGShopCycleSelect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9381670207CFF1D00633284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "黑色幽默";
+				TargetAttributes = {
+					A9381677207CFF1D00633284 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A9381673207CFF1D00633284 /* Build configuration list for PBXProject "HGShopCycleSelect" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A938166F207CFF1D00633284;
+			productRefGroup = A9381679207CFF1D00633284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9381677207CFF1D00633284 /* HGShopCycleSelect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9381676207CFF1D00633284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9381688207CFF1D00633284 /* LaunchScreen.storyboard in Resources */,
+				A9381685207CFF1D00633284 /* Assets.xcassets in Resources */,
+				A9381683207CFF1D00633284 /* Main.storyboard in Resources */,
+				A92175BD209B55E100F2AD46 /* HGShopCycleSelectCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFC80D09A02FE22501DBF84B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGShopCycleSelect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9381674207CFF1D00633284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92175C2209B55E100F2AD46 /* HGShopTimeSelectTool.m in Sources */,
+				A957654721FF6985005BE85C /* HGDeviceModelHelper.m in Sources */,
+				A9381680207CFF1D00633284 /* ViewController.m in Sources */,
+				A938168B207CFF1D00633284 /* main.m in Sources */,
+				A92175BE209B55E100F2AD46 /* HGShopCycleSelectCell.m in Sources */,
+				A92175BF209B55E100F2AD46 /* HGShopStartTimeView.m in Sources */,
+				A92175C1209B55E100F2AD46 /* HGShopCycleSelectViewController.m in Sources */,
+				A92175C0209B55E100F2AD46 /* HGShopCycleSelectHeaderView.m in Sources */,
+				A93816B6207D1B3A00633284 /* MBProgressHUD.m in Sources */,
+				A93816B7207D1B3A00633284 /* MBProgressHUD+NHAdd.m in Sources */,
+				A938167D207CFF1D00633284 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9381681207CFF1D00633284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9381682207CFF1D00633284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9381686207CFF1D00633284 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9381687207CFF1D00633284 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A938168C207CFF1D00633284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A938168D207CFF1D00633284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A938168F207CFF1D00633284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4562A6CF46257978F011C3F3 /* Pods-HGShopCycleSelect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HGShopCycleSelect/PrefixHeader.pch";
+				INFOPLIST_FILE = HGShopCycleSelect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.HGShopCycleSelect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9381690207CFF1D00633284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4B361EEF127136B06210D8 /* Pods-HGShopCycleSelect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HGShopCycleSelect/PrefixHeader.pch";
+				INFOPLIST_FILE = HGShopCycleSelect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.HGShopCycleSelect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9381673207CFF1D00633284 /* Build configuration list for PBXProject "HGShopCycleSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A938168C207CFF1D00633284 /* Debug */,
+				A938168D207CFF1D00633284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A938168E207CFF1D00633284 /* Build configuration list for PBXNativeTarget "HGShopCycleSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A938168F207CFF1D00633284 /* Debug */,
+				A9381690207CFF1D00633284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9381670207CFF1D00633284 /* Project object */;
+}
